@@ -1,0 +1,43 @@
+Error waiting for Thank You message: locator.waitFor: Target page, context or browser has been closed
+Call log:
+  - waiting for locator('#thankyou') to be visible
+    53 × locator resolved to hidden <div id="thankyou">…</div>
+
+    at D:\Growth99\tests\testscripts\cliffhangerContactForm.spec.ts:111:36 {
+  [Symbol(step)]: {
+    stepId: 'pw:api@23',
+    location: {
+      file: 'D:\\Growth99\\tests\\testscripts\\cliffhangerContactForm.spec.ts',
+      line: 111,
+      column: 36,
+      function: undefined
+    },
+    category: 'pw:api',
+    title: 'locator.waitFor(#thankyou)',
+    apiName: 'locator.waitFor',
+    params: {
+      selector: '#thankyou',
+      strict: true,
+      omitReturnValue: true,
+      state: 'visible',
+      timeout: 45000
+    },
+    boxedStack: undefined,
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1733645879923,
+    error: {
+      message: 'Error: locator.waitFor: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('#thankyou') to be visible\x1B[22m\n" +
+        '\x1B[2m    53 × locator resolved to hidden <div id="thankyou">…</div>\x1B[22m\n',
+      stack: 'Error: locator.waitFor: Target page, context or browser has been closed\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('#thankyou') to be visible\x1B[22m\n" +
+        '\x1B[2m    53 × locator resolved to hidden <div id="thankyou">…</div>\x1B[22m\n' +
+        '\n' +
+        '    at D:\\Growth99\\tests\\testscripts\\cliffhangerContactForm.spec.ts:111:36',
+      cause: undefined
+    }
+  }
+}

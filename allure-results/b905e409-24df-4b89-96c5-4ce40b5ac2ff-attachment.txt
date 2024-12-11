@@ -1,0 +1,14 @@
+Contact form button clicked.
+Contact Form button clicked successfully.
+Contact Form Opened successfully: "Lead Capture Form" is visible.
+Generated Dynamic Data: {
+  firstName: 'Mario',
+  lastName: 'Prosacco',
+  phoneNumber: '8533563055',
+  emailAddress: 'Tyrese69@gmail.com',
+  instagram: 'lacey_adams',
+  lasertreatment: 'Yes',
+  message: 'This is a dynamically generated test message.'
+}
+File uploaded successfully.
+Submit button clicked.

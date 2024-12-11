@@ -1,0 +1,44 @@
+Error waiting for Thank You message: locator.waitFor: Timeout 15000ms exceeded.
+Call log:
+  - waiting for locator('//p[@id=\'thankyoupcontent\']') to be visible
+    34 × locator resolved to hidden <p id="thankyoupcontent">↵              Your form has been submitted succe…</p>
+
+    at D:\Growth99\tests\testscripts\cliffhangerContactForm.spec.ts:95:36 {
+  name: 'TimeoutError',
+  [Symbol(step)]: {
+    stepId: 'pw:api@23',
+    location: {
+      file: 'D:\\Growth99\\tests\\testscripts\\cliffhangerContactForm.spec.ts',
+      line: 95,
+      column: 36,
+      function: undefined
+    },
+    category: 'pw:api',
+    title: "locator.waitFor(//p[@id='thankyoupcontent'])",
+    apiName: 'locator.waitFor',
+    params: {
+      selector: "//p[@id='thankyoupcontent']",
+      strict: true,
+      omitReturnValue: true,
+      state: 'visible',
+      timeout: 15000
+    },
+    boxedStack: undefined,
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1733595673142,
+    error: {
+      message: 'TimeoutError: locator.waitFor: Timeout 15000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//p[@id=\\'thankyoupcontent\\']') to be visible\x1B[22m\n" +
+        '\x1B[2m    34 × locator resolved to hidden <p id="thankyoupcontent">↵              Your form has been submitted succe…</p>\x1B[22m\n',
+      stack: 'TimeoutError: locator.waitFor: Timeout 15000ms exceeded.\n' +
+        'Call log:\n' +
+        "\x1B[2m  - waiting for locator('//p[@id=\\'thankyoupcontent\\']') to be visible\x1B[22m\n" +
+        '\x1B[2m    34 × locator resolved to hidden <p id="thankyoupcontent">↵              Your form has been submitted succe…</p>\x1B[22m\n' +
+        '\n' +
+        '    at D:\\Growth99\\tests\\testscripts\\cliffhangerContactForm.spec.ts:95:36',
+      cause: undefined
+    }
+  }
+}

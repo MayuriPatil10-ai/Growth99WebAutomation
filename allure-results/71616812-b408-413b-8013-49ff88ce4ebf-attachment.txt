@@ -1,0 +1,13 @@
+Page loaded successfully!
+selfAssistment form button clicked.
+Male tab clicked.
+FrontHead tab clicked.
+Symptoms tab clicked.
+Continue locator found
+Continue button clicked.
+Lead Capture Form title verified. Promise {
+  <pending>,
+  [Symbol(async_id_symbol)]: 19546,
+  [Symbol(trigger_async_id_symbol)]: 18526,
+  [Symbol(kResourceStore)]: undefined
+}

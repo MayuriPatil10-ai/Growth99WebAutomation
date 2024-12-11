@@ -1,0 +1,3 @@
+Page loaded successfully!
+Waiting for the Self Assessment button to be visible...
+Page loaded successfully!

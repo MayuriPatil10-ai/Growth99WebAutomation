@@ -1,0 +1,6 @@
+Page loaded successfully!
+selfAssistment form button clicked.
+FrontHead tab clicked.
+Symptoms tab clicked.
+Continue locator found
+Continue button clicked.

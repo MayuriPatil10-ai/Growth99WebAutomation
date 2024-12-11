@@ -1,0 +1,3 @@
+Page loaded successfully!
+selfAssistment form button clicked.
+Female tab clicked.

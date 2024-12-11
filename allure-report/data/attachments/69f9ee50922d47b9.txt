@@ -1,0 +1,21 @@
+Cliffhanger page loaded successfully
+Contact form button clicked.
+Contact Form button clicked successfully.
+Contact Form Opened successfully: "Lead Capture Form" is visible.
+Generated Dynamic Data: {
+  cliffhangerUrl: 'https://chatbot.growthemr.com/assets/integration.html?bid=1968',
+  dynamicData: {
+    firstName: 'John',
+    lastName: 'Doe',
+    phoneNumber: '1234567890',
+    emailAddress: 'john.doe@example.com',
+    instagram: 'john_doe',
+    lasertreatment: 'Yes',
+    message: 'This is a dynamically generated test message.'
+  },
+  firstName: 'Garrett',
+  lastName: 'Wolf',
+  phoneNumber: '2531656495',
+  instagram: 'claud_kutch',
+  message: 'This is a dynamically generated test message.'
+}

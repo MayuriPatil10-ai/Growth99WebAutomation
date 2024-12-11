@@ -1,0 +1,42 @@
+Error waiting for Lead Capture Form title: locator.waitFor: Test timeout of 30000ms exceeded.
+Call log:
+  - waiting for locator('iframe[src="https://widget-ui.growthemr.com/selfassessment?bid=1968&fid=14940"]').contentFrame().locator('//h3[text()=\'Lead Capture Form\']') to be visible
+
+    at SelfAssistmentPage.clickContinueButton (D:\Growth99\tests\testsPOM\Cliffhanger\selfAssistment.page.ts:206:29)
+    at D:\Growth99\tests\testscripts\Cliffhanger\selfAssistment.spec.ts:95:3 {
+  [Symbol(step)]: {
+    stepId: 'pw:api@28',
+    location: {
+      file: 'D:\\Growth99\\tests\\testsPOM\\Cliffhanger\\selfAssistment.page.ts',
+      line: 206,
+      column: 29,
+      function: 'SelfAssistmentPage.clickContinueButton'
+    },
+    category: 'pw:api',
+    title: `locator.waitFor(iframe[src="https://widget-ui.growthemr.com/selfassessment?bid=1968&fid=14940"] >> internal:control=enter-frame >> //h3[text()='Lead Capture Form'])`,
+    apiName: 'locator.waitFor',
+    params: {
+      selector: `iframe[src="https://widget-ui.growthemr.com/selfassessment?bid=1968&fid=14940"] >> internal:control=enter-frame >> //h3[text()='Lead Capture Form']`,
+      strict: true,
+      omitReturnValue: true,
+      state: 'visible',
+      timeout: 30000
+    },
+    boxedStack: undefined,
+    steps: [],
+    complete: [Function: complete],
+    endWallTime: 1733837026925,
+    error: {
+      message: 'Error: locator.waitFor: Test timeout of 30000ms exceeded.\n' +
+        'Call log:\n' +
+        `\x1B[2m  - waiting for locator('iframe[src="https://widget-ui.growthemr.com/selfassessment?bid=1968&fid=14940"]').contentFrame().locator('//h3[text()=\\'Lead Capture Form\\']') to be visible\x1B[22m\n`,
+      stack: 'Error: locator.waitFor: Test timeout of 30000ms exceeded.\n' +
+        'Call log:\n' +
+        `\x1B[2m  - waiting for locator('iframe[src="https://widget-ui.growthemr.com/selfassessment?bid=1968&fid=14940"]').contentFrame().locator('//h3[text()=\\'Lead Capture Form\\']') to be visible\x1B[22m\n` +
+        '\n' +
+        '    at SelfAssistmentPage.clickContinueButton (D:\\Growth99\\tests\\testsPOM\\Cliffhanger\\selfAssistment.page.ts:206:29)\n' +
+        '    at D:\\Growth99\\tests\\testscripts\\Cliffhanger\\selfAssistment.spec.ts:95:3',
+      cause: undefined
+    }
+  }
+}

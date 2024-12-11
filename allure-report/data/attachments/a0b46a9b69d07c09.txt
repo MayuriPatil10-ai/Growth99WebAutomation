@@ -1,0 +1,2 @@
+Page loaded successfully!
+selfAssistment form button clicked.

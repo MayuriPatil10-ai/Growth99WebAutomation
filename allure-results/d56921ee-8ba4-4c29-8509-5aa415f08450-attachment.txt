@@ -1,0 +1,4 @@
+Page loaded successfully!
+selfAssistment form button clicked.
+Male tab clicked.
+FrontHead tab clicked.

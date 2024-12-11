@@ -1,0 +1,1 @@
+{"total":2,"items":[{"uid":"0bb77e6195b2bdb12bf479625fbfc7c7","name":"Allure Reports","statistic":{"failed":2,"broken":4,"skipped":0,"passed":17,"unknown":0,"total":23}},{"uid":"467473ac5a8e154c318dcef635da3117","name":"e2e-tests","statistic":{"failed":0,"broken":0,"skipped":0,"passed":2,"unknown":0,"total":2}}]}
